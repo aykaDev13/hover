@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin: 0 auto;
+    width: 1140px;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+button {
+    transition: .4s;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.buttons-general {
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-one {
+    color: white;
+    background: black;
+    /*transition: .4s;*/
+    padding: 15px 30px;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.btn-one:hover {
+    color: blue;
+    background: red;
+    transform: scale(1.1);
+}
+
+.btn-two {
+    color: white;
+    background: blueviolet;
+    padding: 15px 30px;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 500;
+    margin: 0 20px;
+}
+
+.btn-two:focus {
+    color: blue;
+    background: darkturquoise;
+    transform: scale(1.1);
+}
+
+.btn-three {
+    color: white;
+    background: blue;
+    padding: 15px 30px;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.btn-three:active {
+    color: red;
+    background: yellowgreen;
+    transform: scale(1.1);
+}
+
+.a-tags {
+    padding-top: 60px;
+}
+
+.a-tags a {
+    color: black;
+    font-size: 20px;
+    padding: 0 15px;
+    font-weight: 500;
+}
+
+.a-tags a:hover {
+    color: blue;
+    text-decoration: underline;
+}
+
+.a-tags h1 {
+    padding: 30px 0;
+    color: black;
+    transition: 4s;
+}
+
+.a-tags h1:hover {
+    color: blue;
+}
+
+.a-tags h2 {
+    color: black;
+    transition: 4s;
+}
+
+.a-tags h2:hover {
+    color: yellowgreen;
+
+}
+
+.block {
+    width: 300px;
+    height: 250px;
+    background-color: white;
+    box-shadow: 0 0 5px black;
+    margin-top: 20px;
+}
+
+.block:before {
+    position: absolute;
+    width: 300px;
+    height: 250px;
+    background-color: white;
+    box-shadow: 0 0 5px black;
+    margin-top: 20px;
+}
+
+.block:after {
+    width: 300px;
+    height: 250px;
+    background-color: white;
+    box-shadow: 0 0 5px black;
+    margin-top: 20px;
+    position: absolute;
+    left: 200px;
+    content: "text";
+}
+
